@@ -1,0 +1,43 @@
+/* picture style */
+
+.card_pictures {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 18rem !important;
+    transition: filter 0.3s;
+}
+
+.card_pictures:hover {
+    /* box-shadow: 8px 8px rgb(44, 44, 44); */
+    filter: brightness(50%);
+}
+
+/* -------------------------------------------------- */
+
+/* carousel style */
+.carousel_img {
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_pictures_button {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8rem !important;
+    transition: filter 0.3s;
+    /* background-color: rgb(35, 35, 35) !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.2rem solid black;
+}
+
+.card_pictures_button:hover {
+    /* box-shadow: 8px 8px rgb(44, 44, 44); */
+    filter: brightness(50%);
+}

@@ -1,0 +1,247 @@
+@media (max-width: 768px) {
+    .gambar1 {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .menu1 {
+        margin-top: 7em;
+    }
+}
+/* @media (max-width: 391px) {
+    .hero-section {
+        height: 70vh;
+    }
+} */
+@media (max-width: 352px) {
+    .section-hero-cta {
+        padding: 1em 4em 1em 4em;
+        font-size: 0.4em;
+    }
+}
+
+/* style overall */
+
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* body {
+} */
+
+/* Konten Utama/Hero section and Navbar section stylee */
+
+.hero-section {
+    background-color: #f4f4f4;
+    /* height: 100vh; */
+    overflow: hidden;
+    z-index: 9999;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 3.5em;
+    }
+}
+
+.navbar-nav a {
+    margin-left: 1em;
+    color: black;
+    font-family: "point";
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+    color: #535151;
+}
+
+.gambar1 {
+    margin-left: 8em;
+    margin-top: -18em;
+}
+
+.section-hero-cta {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em 9em 1em 9em;
+    margin-bottom: 5em;
+}
+
+/* Tentang kami section Stylee */
+
+.tentang-kami-section {
+    font-family: "point";
+    justify-content: center;
+    padding-bottom: 7em;
+}
+
+.tentang-kami-section h1 {
+    font-family: "artegra";
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
+}
+
+.tentang-kami-section .row p {
+    font-size: 0.8em;
+}
+
+/* Menu section Stylee */
+
+.menu-section {
+    min-height: 90vh;
+    background-color: #f4f4f4;
+    background-image: url("../asset/black.png");
+    filter: brightness(20px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.menu1 {
+    background-color: white;
+    width: 100%;
+    height: 17em;
+    border-radius: 0.8em;
+    text-align: center;
+    font-family: "point";
+}
+
+.menu1 .deskripsi {
+    margin-top: 1em;
+    width: 15em;
+    margin: auto;
+}
+.menu1 .deskripsi p {
+    margin-top: 1.5em;
+}
+
+.menu1 img {
+    border-radius: 50%;
+    width: 13em;
+    height: 13em;
+    position: relative;
+    margin-top: -6em;
+}
+
+/* Berita Section Stylee */
+
+@media (max-width: 767px) {
+    .berita-section .berita1 {
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 768px) {
+    /* .berita-section .berita2 {
+    margin-bottom: 4em;
+  } */
+    .berita-section img {
+        display: none;
+    }
+}
+@media (max-width: 449px) {
+    .berita-section .mini_berita {
+        margin-bottom: 20em;
+    }
+}
+
+.berita-section {
+    background-color: #f4f4f4;
+    font-family: "point";
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.berita-section h1 {
+    font-family: "artegra";
+    font-size: 2em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.berita-section .judul-card {
+    font-size: 1em;
+}
+
+.berita-section .card-title {
+    font-family: "artegra";
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.berita-section .img1 {
+    height: 28rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1em 1em 0px 0px;
+}
+.berita-section .img2 {
+    height: 13em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1em 1em 0px 0px;
+}
+
+.berita-section .card-shadow {
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.berita-section a {
+    text-decoration: none;
+    color: #eedf0c;
+}
+
+.berita-section p {
+    margin-bottom: 2.5em;
+}
+
+.berita-section .berita-mini,
+a {
+    font-size: 0.8em;
+}
+
+/* Galerry Section StyLee */
+
+.gallery-section {
+    font-family: "point";
+    text-align: center;
+}
+
+.gallery-section h1 {
+    font-family: "artegra";
+    margin-top: 2em;
+}
+
+.gallery-section .galeri-1 {
+    margin-top: 5em;
+}
+
+.gallery-section .section-galeri-cta {
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.picture {
+    border-radius: 1rem;
+    height: 20rem !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

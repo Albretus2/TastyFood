@@ -1,0 +1,87 @@
+/* style overall */
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "point";
+}
+
+/* body {
+} */
+
+/* Kontak Kami Section StyleeSheet */
+
+.kontak .title {
+    margin-top: 8em;
+}
+
+.kontak h1 {
+    font-family: "artegra";
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+.kontak .input-01 {
+    height: 12vh;
+    border: 0.1em solid black;
+    border-radius: 0.8em;
+    margin-bottom: 1em;
+}
+
+.kontak .input-02 {
+    height: 40vh;
+    border: 0.1em solid black;
+    border-radius: 0.8em;
+}
+
+.kontak .btn-utama {
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.kontak .cta-01 {
+    width: 85em;
+    height: 5em;
+    background-color: black;
+    color: white;
+    border-radius: 0.8em;
+}
+
+.kontak h2 {
+    font-family: "artegra";
+    font-size: 1.3em;
+}
+
+.mapss {
+    font-family: "point";
+    height: 80vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+
+.mapss .frame {
+    border-radius: 2em;
+}
+/* 
+form.sending .btn-loading {
+    display: inline-block;
+}
+
+form.sending .btn-submit[type="submit"] {
+    display: none;
+}
+
+form:not(.sending) .btn-loading {
+    display: none;
+}
+
+form:not(.sending) .btn-submit[type="submit"] {
+    display: inline-block;
+} */

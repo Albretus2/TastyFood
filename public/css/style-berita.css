@@ -1,0 +1,118 @@
+/* style overall */
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "point";
+}
+
+/* Konten Utama Berita Kami style */
+
+.utama {
+    background-color: #f4f4f4;
+    font-family: "point";
+}
+
+.utama .p1 img {
+    border-radius: 2em;
+    height: 500px;
+}
+
+@media (max-width: 992px) {
+    .utama .p1 img {
+        display: none;
+    }
+    /* .utama {
+        background-image: url(../asset/salad_crop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter:brightness(45%) ;
+    }
+    .utama h2, p {
+        color: white;
+    } */
+}
+
+/* .utama .gambar-utama {
+    height: 32em;
+    border-radius: 3em;
+    background-image: url('../asset/salad_crop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.utama .p2 {
+    align-items: center;
+}
+.utama .p2 h2 {
+    font-family: "artegra";
+}
+
+.utama .btn-utama {
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+@media (max-width: 992px) {
+    .gambar-utama {
+        height: 20em;
+    }
+}
+
+/* Konten Berita Lainnya card Stylee */
+
+.another {
+    font-family: "point";
+}
+
+.another h2 {
+    font-family: "artegra";
+    font-size: 1.7em;
+}
+
+/* =========================== card  GAMBAR PADA BERITA LAINNYA ================================= */
+
+.another .gambar1 {
+    height: 15em;
+    border-radius: 1em 1em 0px 0px;
+    background-image: url(../asset/sayur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.another .gambar2 {
+    height: 15em;
+    border-radius: 1em 1em 0px 0px;
+    /* background-image: url(../asset/cook_2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ================================================================================================= */
+
+.another .text {
+    font-family: "artegra";
+    font-size: 0.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.another .berita1 {
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.another .berita1 a {
+    color: #eedf0c;
+    font-size: 0.8em;
+    text-decoration: none;
+}

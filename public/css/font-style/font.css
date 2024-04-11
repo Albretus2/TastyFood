@@ -1,0 +1,18 @@
+/* font overall */
+
+@font-face {
+    font-family: "artegra";
+    src: url("/asset/font/artegra/artegra-black.otf") format(truetype);
+}
+@font-face {
+    font-family: "point";
+    src: url("/asset/font/point/point-semibold.otf") format(truetype);
+}
+@font-face {
+    font-family: "quitsans";
+    src: url("/asset/font/quitsans/quitsans-light.otf") format(truetype);
+}
+@font-face {
+    font-family: "hevil";
+    src: url("/asset/font/upheval/upheavtt.otf") format(truetype);
+}

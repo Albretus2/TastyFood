@@ -1,0 +1,24 @@
+/* footer stylesheet */
+
+footer {
+    margin-top: 5em;
+    background-color: black;
+    font-family: "point";
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+footer .penjelasan {
+    font-size: 0.8em;
+    margin-bottom: 3em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .contact-kami .row {
+    font-size: 0.8em;
+}

@@ -1,0 +1,14 @@
+/* style overall */
+
+.gambar {
+    height: 18rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .gambar {
+        height: 9rem;
+    }
+}

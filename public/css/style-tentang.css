@@ -1,0 +1,115 @@
+/* StyleeSheet Overall */
+
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "point";
+}
+/* 
+body {
+} */
+
+/* About Section StyleeSheet */
+
+.about {
+    background-color: #f4f4f4;
+}
+
+.about .judul1 {
+    font-family: "artegra";
+    font-size: 2em;
+}
+
+.about .gambar-1 {
+    height: 35em;
+    border-radius: 2em;
+    background-image: url(../asset/sate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+}
+.about .gambar-2 {
+    height: 35em;
+    border-radius: 2em;
+    background-image: url(../asset/cook_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 767px) {
+    .about .gambar-1 {
+        height: 4em;
+        margin-top: -2em;
+        border-radius: 10px;
+    }
+    .about .gambar-2 {
+        height: 4em;
+        border-radius: 10px;
+    }
+}
+
+/* Visi Section StyleeSheet */
+
+.visi {
+    margin-bottom: 9em;
+}
+
+.visi .gambar-3 {
+    height: 20em;
+    border-radius: 2em;
+    background-image: url(../asset/sajen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+}
+.visi .gambar-4 {
+    height: 20em;
+    border-radius: 2em;
+    background-image: url(../asset/remen_overall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .visi .gambar-3 {
+        height: 20em;
+    }
+    .visi .gambar-4 {
+        height: 20em;
+    }
+}
+@media (min-width: 767px) {
+    .visi .deskripsi-2 {
+        margin-left: 3em;
+    }
+}
+
+.visi h1 {
+    font-size: 1.8em;
+    font-family: "artegra";
+    margin-bottom: 1em;
+}
+
+/* Misi Section StyleeSheet */
+
+.misi h1 {
+    font-size: 1.8em;
+    font-family: "artegra";
+    margin-bottom: 1em;
+}
+
+.misi .gambar-5 {
+    height: 23em;
+    border-radius: 1em;
+    background-image: url(../asset/sayur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

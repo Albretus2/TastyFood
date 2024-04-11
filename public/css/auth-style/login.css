@@ -1,0 +1,16 @@
+/* font overall */
+
+.gambar1 {
+    height: 27em;
+    background-image: url(/asset/moshed.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+@media (max-width: 992px) {
+    .gambar1 {
+        height: 10em;
+    }
+}
