@@ -27,7 +27,7 @@ what's in Tasty Food
 -   clone this project first and `cd` into it
 
 ```bash
-  git clone https://github.com/Albretus2/CaffeeApp.git
+  git clone https://github.com/Albretus2/CaffeeApp.git](https://github.com/Albretus2/TastyFood.git
 ```
 
 -   then Rename or copy `.env.example` file to `.env`
